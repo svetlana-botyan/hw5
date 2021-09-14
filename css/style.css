@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4a99d3;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 110px auto 0;
+    padding: 50px 75px;
+    background: rgba(33, 63, 100, 0.69);
+}
+
+.sky1 {
+    position: absolute;
+    width: 250px;
+    height: 130px;
+    top: -65px;
+    left: 671px;
+    z-index: 1;
+}
+
+.sky2 {
+    position: absolute;
+    width: 530px;
+    height: 160px;
+    top: 60px;
+    left: -195px;
+    z-index: -1;
+    opacity: 0.37;
+}
+
+.sky3 {
+    position: absolute;
+    width: 190px;
+    height: 115px;
+    top: 275px;
+    left: 50px;
+    z-index: -1;
+    opacity: 0.37;
+}
+
+.sky4 {
+    position: absolute;
+    width: 530px;
+    height: 150px;
+    top: 230px;
+    left: 460px;
+    z-index: -1;
+    opacity: 0.37;
+}
+
+section {
+    position: relative;
+}
+
+h1, h2, p {
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 25px 0;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+p:last-of-type {
+    margin-bottom: 160px;
+    line-height: 22px;
+}
+
+p:nth-last-of-type(3), p:nth-last-of-type(5) {
+    line-height: 22px;
+}
+
+.birds {
+    margin-bottom: 120px;
+}
+
+.birds img {
+    width: 19%;
+}
+
+.twitter, .facebook, .vimeo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+}
+
+.twitter, .facebook, .vimeo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+}
+
+.twitter {
+    background: #4ec3fd;
+    top: 5px;
+    left: -33px;
+}
+
+.facebook {
+    background: #80a2e0;
+    top: 40px;
+    left: -33px;
+}
+
+.vimeo {
+    background: #4a5a6a;
+    top: 75px;
+    left: -33px;
+}
+
+.tree {
+    position: absolute;
+    top: 850px;
+    left: 450px;
+    z-index: -1;
+}
+
+.twitter:hover, .facebook:hover, .vimeo:hover {
+    background: #8ad696;
+}
+
+.action {
+    width: 300px;
+    height: 200px;
+    padding: 60px 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50px);
+    background-color: #fafb9a;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.grass {
+    position: fixed;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    background-image: url(../images/grass.png);
+}
